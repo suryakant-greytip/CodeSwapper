@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./images/CodeSwapperFavicon.png" type="image/x-icon">
+    <title>CodeSwapper</title>
+</head>
+<body>
+    
+    <div id="header">
+        <h1>CodeSwapper</h1>
+    </div>
+
+    <div id="button-container">
+        <select id="programmingLanguage">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="c++">C++</option>
+            <option value="php">PHP</option>
+        </select>
+        <button id="codeConverter">Convert Code</button>
+        <button id="codeDebugger">Debug Code</button>
+        <button id="codeQualityCheck">Check Quality</button>
+    </div>
+    
+    <div class="main-container">
+        <div class="editor-container">
+            <div id="editor"></div>
+        </div>
+        <div class="response-container">
+            <div id="response"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.24.2/ace.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
