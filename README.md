@@ -58,10 +58,10 @@ mvn spring-boot:run
 2. Open the front end deployed link.
 
 ```netlify
-https://65022ab1474b2c549f66a699--idyllic-boba-a0cea6.netlify.app/
+https://6502376fe3184c5dda8f72d0--relaxed-eclair-648115.netlify.app/
 ```
 
-3. Open your web browser and navigate to https://65022ab1474b2c549f66a699--idyllic-boba-a0cea6.netlify.app/.
+3. Open your web browser and navigate to https://6502376fe3184c5dda8f72d0--relaxed-eclair-648115.netlify.app/.
 
 ## ⚙️ Configuration
 
